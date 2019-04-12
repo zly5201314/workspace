@@ -29,8 +29,6 @@ public class PageController {
     //商品查询
     @RequestMapping("queryShop")
     public String queryShop(){
-        System.out.println("1111");
-        System.out.println("222");
         return "shop";
     }
 
