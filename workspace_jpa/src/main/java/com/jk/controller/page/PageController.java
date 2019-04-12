@@ -21,7 +21,6 @@ public class PageController {
    //左侧树
     @RequestMapping("easyui")
     public String easyui(){
-        System.out.println("111");
         return  "main";
     }
 
