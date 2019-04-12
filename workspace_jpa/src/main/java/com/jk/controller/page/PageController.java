@@ -22,6 +22,7 @@ public class PageController {
     @RequestMapping("easyui")
     public String easyui(){
         System.out.println("111");
+        System.out.println("222");
         return  "main";
     }
 
