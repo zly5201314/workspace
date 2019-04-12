@@ -21,7 +21,9 @@ public class PageController {
    //左侧树
     @RequestMapping("easyui")
     public String easyui(){
-      return  "main";
+        System.out.println("111");
+
+        return  "main";
     }
 
     //商品查询
